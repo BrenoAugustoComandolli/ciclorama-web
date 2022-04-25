@@ -1,0 +1,31 @@
+.categoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 200px;
+    height: 8vh;
+    margin-top: 20px;
+    margin-left: 4px;
+    border-radius: 20px;
+    font-size: 100%;
+}
+
+.categoria-selecionada {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #cf787c;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 200px;
+    height: 8vh;
+    margin-top: 20px;
+    margin-left: 4px;
+    border-radius: 20px;
+    font-size: 100%;
+}

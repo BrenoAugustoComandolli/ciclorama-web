@@ -1,0 +1,48 @@
+#container-categorias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#box-categorias {
+  margin-top: 20%;
+  margin-bottom: 20%;
+  background-color: #545454;
+  border-radius: 10px;
+  height: auto;
+  width: 75%;
+  min-width: 250px;
+}
+
+#dados-categoria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#cadastro-categoria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 40%;
+  min-width: 200px;
+}
+
+#nome-categoria {
+  margin-left: 7px;
+}
+
+#input-categoria {
+  font-size: 90%;
+  border-radius: 10px;
+  padding: 3px 7px;
+  border-color: #881016;
+}

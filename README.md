@@ -1,2 +1,2 @@
-# ciclorama-web
-Ciclorama - Web
+# Ciclorama-web
+Aplicação para organização de filmes

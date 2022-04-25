@@ -1,0 +1,98 @@
+#container-adicionarFilme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+#box-adicionarFilme {
+  background-color: #545454;
+  border-radius: 5px;
+  min-width: 200px;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 90%;
+}
+
+#centro-cadastro-filme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+#align-centro-cadastro-filme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  width: 50%;
+  min-width: 220px;
+}
+
+#titulo-edicao-filme {
+  font-size: 170%;
+}
+
+#nome-campos-filme {
+  font-size: 100%;
+}
+
+#botao-salvar-filme {
+  box-shadow: 0px 0px 10px black;
+  background-color: #881016;
+  color: #ffff;
+  align-items: center;
+  border: none;
+  font-size: 90%;
+  border-radius: 4px;
+  height: 4vh;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#botao-excluir-filme {
+  box-shadow: 0px 0px 10px black;
+  background-color: #cf787c;
+  color: #ffff;
+  border: none;
+  align-items: center;
+  font-size: 90%;
+  border-radius: 4px;
+  height: 4vh;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+#descricao-filme {
+  padding: 10px;
+  height: 200px;
+}
+
+.dados-filme-input {
+  padding-left: 3px;
+  padding: 5px;
+}
+
+.input-adicionar-filme {
+  border-color: #881016;
+  resize: vertical;
+  margin-bottom: 0.5%;
+  border-radius: 5px;
+  font-size: 100%;
+  width: 100%;
+}
+
+.campos-input-filme {
+  display: flex;
+  align-items: row;
+  flex-direction: column;
+  width: 100%;
+}
